@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180515121243) do
+ActiveRecord::Schema.define(version: 20180515122807) do
 
   create_table "tweeets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.text "tweeet"
@@ -31,8 +31,16 @@ ActiveRecord::Schema.define(version: 20180515121243) do
     t.string "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "fname"
+    t.string "lname"
+    t.string "username"
+    t.integer "gender", default: 0
+    t.integer "marital_status", default: 0
+    t.string "phone_number"
+    t.string "home_town"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+    t.index ["username"], name: "index_users_on_username", unique: true
   end
 
 end

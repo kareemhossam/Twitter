@@ -52,6 +52,7 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, rbenv: 2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.4.3, rbenv: 2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="em-websocket (v0.5.1, rbenv: 2.5.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="enum_help (v0.0.17, rbenv: 2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.7.1, rbenv: 2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="eventmachine (v1.2.7, rbenv: 2.5.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, rbenv: 2.5.0) [gem]" level="application" />
